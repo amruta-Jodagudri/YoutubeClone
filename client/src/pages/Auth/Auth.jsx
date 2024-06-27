@@ -34,6 +34,7 @@ function Auth({ User, setAuthBtn, setEditCreateChanelBtn }) {
                 <>
                 {
                     <Link to={`/chanel/${User?.result._id}`} className="btn_Auth">
+                    <p>Points: {User?.points}</p>
                     Your Chanel
                     </Link>
                 }
