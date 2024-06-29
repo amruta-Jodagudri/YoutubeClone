@@ -22,7 +22,6 @@ function VideoPage() {
     const dispatch = useDispatch();
     const CurrentUser = useSelector((state) => state?.currentUserReducer);
 
-
     const handleHistory = () => {
         dispatch(
         addToHistory({
