@@ -2,7 +2,7 @@ import express from 'express';
 
 import { login } from '../controllers/auth.js';
 import { getAllChanels, updateChanelData } from '../controllers/chanel.js';
-import { updatePoints } from '../controllers/user.js';
+import { getPoints, updatePoints } from '../controllers/user.js';
 
 const routes = express.Router();
 
